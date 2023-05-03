@@ -1,9 +1,11 @@
 ---
 layout: single
-title: My Other Hobbies
+title: Lin - Other
 permalink: /other/
 author_profile: true
 ---
+
+## More about me
 
 I am passionate about soccer, been playing it since I was six.
 

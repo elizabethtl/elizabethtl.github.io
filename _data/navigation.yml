@@ -10,6 +10,8 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  # - title: "Lin"
+  #   url: /
   - title: "Education"
     url: /education/
   - title: "Research"

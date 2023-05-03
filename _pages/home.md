@@ -1,7 +1,7 @@
 ---
 # layout: home
 layout: single
-title: Hi
+title: Lin
 permalink: /
 author_profile: true
 ---
@@ -10,5 +10,7 @@ author_profile: true
 layout: home
 author_profile: true
 --- -->
+
+## Hi
 
 welcome to my site that is still in progress

@@ -1,10 +1,12 @@
 ---
 # layout: home
 layout: single
-title: Posts
+title: Lin - Posts
 permalink: /posts/
 author_profile: true
 ---
+
+## Some writing I did
 
 <ul>
   {% for post in site.posts %}
