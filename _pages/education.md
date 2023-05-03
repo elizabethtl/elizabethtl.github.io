@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Lin - Education
+title: Education
 permalink: /education/
 author_profile: true
 ---

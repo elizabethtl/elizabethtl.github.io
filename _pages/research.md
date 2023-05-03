@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Lin - Research
+title: Research
 permalink: /research/
 author_profile: true
 ---

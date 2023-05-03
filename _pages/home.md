@@ -1,7 +1,7 @@
 ---
 # layout: home
 layout: single
-title: Lin
+title: Home
 permalink: /
 author_profile: true
 ---
