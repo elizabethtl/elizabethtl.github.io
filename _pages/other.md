@@ -5,7 +5,7 @@ permalink: /other/
 author_profile: true
 ---
 
-## More about me
+# More about me
 
 I am passionate about soccer, been playing it since I was six.
 

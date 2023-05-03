@@ -11,6 +11,6 @@ layout: home
 author_profile: true
 --- -->
 
-## Hi
+# Hi
 
 welcome to my site that is still in progress

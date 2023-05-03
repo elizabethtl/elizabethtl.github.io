@@ -5,7 +5,7 @@ permalink: /education/
 author_profile: true
 ---
 
-## Education
+# Education
 
 I'm currently a computer science PhD student at North Carolina State University.
 
