@@ -13,4 +13,10 @@ author_profile: true
 
 # Hi
 
-welcome to my site that is still in progress
+I'm Elizabeth.
+
+I'm currently doing security research at the [WSPR](https://wspr.csc.ncsu.edu/) lab at [NC State](https://www.ncsu.edu/).
+
+Research-wise, anything that's a problem interests me. 
+Right now, I'm focusing on the software supply chain.
+
