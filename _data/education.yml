@@ -1,0 +1,15 @@
+- school: "North Carolina State University"
+  city: "Raleigh, NC"
+  major: "Computer Science"
+  start: "Aug 2022"
+  end: "current"
+  degree: "Ph.D."
+
+- school: "National Chengchi University"
+  city: "Taipei, TW"
+  major: "Computer Science"
+  start: "Sep 2018"
+  end: "Jun 2022"
+  degree: "B.S."
+
+
