@@ -12,11 +12,11 @@ main:
   #   url: /sitemap/
   # - title: "Lin"
   #   url: /
-  - title: "Resume"
-    url: /resume/
+  - title: "About"
+    url: /about/
   - title: "Research"
     url: /research/
   - title: "Other"
     url: /other/
-  - title: "Blog Posts"
-    url: /posts/
+  # - title: "Blog Posts"
+  #   url: /posts/
