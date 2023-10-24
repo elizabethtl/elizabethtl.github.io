@@ -1,16 +1,16 @@
 
-- company: "the WSPR lab"
+- company: "Wolfpack Security and Privacy Research Lab at North Carolina State University"
   job: "Graduate Research Assistant"
   city: "Raleigh, NC"
   start: "Aug 2022"
   end: "current"
-  desc: ""
+  desc: "Focus: Software Supply Chain Security"
 
 - company: "National Chengchi University"
   job: "Contract Student Software Developer"
   start: "Sep 2021"
   end: "Jun 2022"
-  desc: ""
+  desc: "As an extension of my graduation project, I developed a website for campus store to provide online services. It was built on AWS ec2, Apache, node.js, express, MySQL. The website was incorporated into the mobile app LINE with LINE messaging API, LINE notify, and LIFF. It allowed login and ordering of products through a LINE account."
   city: "Taipei, Taiwan"
 
 
@@ -18,6 +18,6 @@
   job: "Part-time Teacher"
   start: "Feb 2021"
   end: "Dec 2021"
-  desc: ""
+  desc: "I planned and taught coding lessons for elementary kids. I also communicated frequently with faculty and teachers to discuss instructional strategies and provide feedback"
   city: "Taipei, Taiwan"
 

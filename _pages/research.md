@@ -20,7 +20,7 @@ Nusrat Zahan, Elizabeth Lin, Mahzabin Tamanna, William Enck, and Laurie Williams
 
 VS Code is the most popular IDE for developers. In this study we take a look at its extension ecosystem, the marketplace.
 
-We proposed a threat model and identified vulnerabilities within the ecosystem with taint analysis using [CodeQL](https://codeql.github.com/).
+As the first ecosystem-wide research, we proposed a threat model and identified vulnerabilities within the ecosystem with taint analysis using [CodeQL](https://codeql.github.com/).
 
 Identified vulnerabilities were sampled and proof-of-concept exploits were generated to verify them.
 
