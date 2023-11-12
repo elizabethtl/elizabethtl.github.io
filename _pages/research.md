@@ -17,6 +17,8 @@ Our CodeQL queries for taint analysis can be found [here](https://github.com/s3c
 
 In total, we identified and verified vulnerabilities and their proof-of-concept exploits for 21 extensions, impacting 6 million users.
 
+To appear in 2024 ISOC Network and Distributed Systems Symposium (NDSS)
+
 ## Software Bill of Materials (SBoM)
 
 A grey literature review was conducted on articles relating to the benefits and challenges of SBoMs.
