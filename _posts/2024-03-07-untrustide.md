@@ -14,8 +14,8 @@ It's the most popular integrated development environment (IDE), used by 73% deve
 VS Code's popularity can be attributed to its extension ecosystem.
 There are more than 50 thousand extensions on their [marketplace](https://marketplace.visualstudio.com/vscode). 
 Anyone is able to develop and publish an extension on to the marketplace.
-Have you thought about whether the extensions could have vulnerabilities?
 
+Given that, would there be vulnerabilities in extensions?
 A vulnerability in these extensions would directly developers as they have access to files, network, shell, etc on the installed workstation.
 
 This is what our study set out to explore: **What are the vulnerabilities in VS Code extensions?**
@@ -23,12 +23,13 @@ This is what our study set out to explore: **What are the vulnerabilities in VS 
 ## Analysis of the VS Code Extension Ecosystem
 
 To identify potential vulnerabilities in the ecosystem, we first came up with a threat model specific to VS Code extensions.
-We only consider vulnerable extensions and don't consider malicious extensions.  
-We assume the following:
 
+We assume the following:
 - Extension users are benign, but they could download untrusted (potentially malicious) data
 - Extension developers are benign
 - The goal of an external attacker is code execution on the VS Code user's workstation
+
+*\*Note, we only consider vulnerable extensions and don't consider malicious extensions.*
 
 <figure>
   <img src='../assets/images/vscode-threat-model.png' style="width:80%; max-width:700px; display:block; margin-left:auto; margin-right:auto;">
@@ -54,13 +55,15 @@ Our data flow analysis is built on [CodeQL](https://codeql.github.com/), a stati
 CodeQL allows construction of queries to find certain data flows or code patterns.
 
 We built 12 base CodeQL data flow queries. 
-Some additional *filter* queries were required to refine the data flow results, but I won't go into detail (you can read about it in the [paper](https://www.ndss-symposium.org/ndss-paper/untrustide-exploiting-weaknesses-in-vs-code-extensions/)).
+Some additional *filter queries* were required to refine the data flow results, but I won't go into detail (you can read about it in the [paper](https://www.ndss-symposium.org/ndss-paper/untrustide-exploiting-weaknesses-in-vs-code-extensions/)).
 
 ## Findings
 
 So, what did we find from the data flow analysis?
 
-We found a total of **716** dangerous data flows. To check whether these could actually result in a code execution attack by an external attacker, we sampled some extensions and tried to come up with proof-of-concept exploits.
+We found a total of **716** dangerous data flows. 
+
+To verify whether these could actually result in a code execution attack by an external attacker, we sampled some extensions and tried to come up with proof-of-concept exploits.
 
 We came up with a total of **21** verified proof-of-concept exploits, which impact more than **6 million** installations.
 
@@ -78,14 +81,23 @@ to taint sink
 ```
   resolveSpawnOutput(cp.spawn(path, ['--version'])).then((values) => { ... }
 ```
-This results in the script `a-shell-script.sh` being executed **without additional action** from the VS Code user or attacker.
-What does this mean? 
+
+How is this a vulnerability?
+
+The sink `cp.spawn` executes the `path` value, which is the script from `git.path`.
+This results in the extension spawning a shell and executing the script `a-shell-script.sh`.
+All this happens **without additional action** from the VS Code user or attacker.
+
+What does this mean for a malicious actor or users of VS Code?
+
 The attacker can target and distribute malicious code repositories to *git-graph* extension users and launch a code execution attack.
+
+---
 
 What about vulnerabilities in the extension ecosystem's software supply chain?
 
 VS Code extensions can also import dependencies, given that they are very similar to node.js application.
-We did some analysis on the dependencies and found that 9710 out of 43,436 extensions import npm packages with critical-level advisories. This also brings the software supply chain security concern into this ecosystem.
+We did some analysis on the dependencies and found that 9,710 out of 43,436 extensions import npm packages with critical-level advisories. This also brings the software supply chain security concern into this ecosystem.
 
 <figure>
   <img src='../assets/images/vscode-dep-advisory.png' style="width:80%;max-width:500px; display:block; margin-left:auto; margin-right:auto;">
