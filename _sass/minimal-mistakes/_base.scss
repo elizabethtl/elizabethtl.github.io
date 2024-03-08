@@ -64,7 +64,8 @@ small,
 }
 
 p {
-  margin-bottom: 1.3em;
+  // adjusting this for blog posts
+  margin-top: 1em;
 
   // I added this to change font size
   font-size: 0.8em;
@@ -157,6 +158,9 @@ kbd,
 samp,
 pre {
   font-family: $monospace;
+  // me trying to adjust list font size
+  font-size: 0.85em;
+  //
 }
 
 pre {
@@ -176,13 +180,18 @@ hr {
 
 ul li,
 ol li {
-  margin-bottom: 0.5em;
+  // me trying to adjust list font size and spacing
+  margin-bottom: 0em;
+  font-size: 0.8em;
+  //
 }
 
 li ul,
 li ol {
   margin-top: 0.5em;
 }
+
+
 
 /*
    Media and embeds
