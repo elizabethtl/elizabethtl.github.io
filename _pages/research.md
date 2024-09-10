@@ -7,6 +7,14 @@ author_profile: true
 
 # Research
 
+## SCA Usability
+
+We are currently recruiting participants for a study on SCA (software composition analysis) tools.
+
+More details [here](/sca-usability)
+
+Feel free to contact me if interested!
+
 ## UntrustIDE
 
 VS Code is the most popular IDE for developers. In this study we take a look at its extension ecosystem, the marketplace.
