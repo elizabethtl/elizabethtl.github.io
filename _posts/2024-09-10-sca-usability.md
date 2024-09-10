@@ -30,7 +30,7 @@ We aim to answer the following research questions:
 We are looking for people who have experience with SCA tools or are part of an organization that uses SCA tools.
 
 We are still in the process of getting the study approved, 
-but if you are interested please shoot me an email at etlin@ncsu.edu. 
+but if you are interested please shoot me an email at [etlin@ncsu.edu](mailto:etlin@ncsu.edu). 
 
 
 
