@@ -29,8 +29,11 @@ We aim to answer the following research questions:
 
 We are looking for people who have experience with SCA tools or are part of an organization that uses SCA tools.
 
-We are still in the process of getting the study approved, 
-but if you are interested please shoot me an email at [etlin@ncsu.edu](mailto:etlin@ncsu.edu). 
+We value and appreciate your contribution in our study and are committed to maintaining your privacy and confidentiality of all data you provide. 
+We will only use short quotes from the interviews in our publication with your approval, and will make sure that you cannot be identified from our reporting.
+
+Currently, we are still in the process of getting the study approved, 
+but if you are interested please shoot me an email at [etlin@ncsu.edu](mailto:etlin@ncsu.edu) and I will reach out when we plan to conduct interviews.
 
 
 
