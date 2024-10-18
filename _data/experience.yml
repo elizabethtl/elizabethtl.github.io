@@ -6,6 +6,13 @@
   end: "current"
   desc: "Focus: Software Supply Chain Security"
 
+- company: "Chainguard"
+  job: "Research Fellow"
+  city: "Raleigh, NC"
+  start: "Jun 2024"
+  end: "Aug 2024"
+  desc: "I worked as a summer research fellow at Chainguard labs, where I lead a project to better understand how various static analysis tools perform on different languages. I also assisted in a project comparing glibc and musl in the container context."
+
 - company: "National Chengchi University"
   job: "Contract Student Software Developer"
   start: "Sep 2021"
