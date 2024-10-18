@@ -9,9 +9,12 @@ author_profile: true
 
 ## SCA Usability
 
-We are currently recruiting participants for a study on SCA (software composition analysis) tools.
+Software Composition Analysis (SCA) is often discussed in software supply chain security. 
+However, there lacks an understanding of how SCA tools are used and how they can be improved for better vulnerability management.
 
-More details [here](/sca-usability)
+We are currently recruiting participants for a study on SCA tools.
+
+More details [here](https://s3c2.org/studies/sca-usability)
 
 Feel free to contact me if interested!
 
