@@ -8,6 +8,7 @@ author_profile: true
 # More about me
 
 I love playing sports, I am most passionate about soccer and have been playing it since I was six.
+Recently, I've also been really into tennis.
 
 I also enjoy reading.
 
