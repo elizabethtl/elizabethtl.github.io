@@ -4,7 +4,6 @@ title:  Interview Study on the use of SCA tools
 author_profile: true
 ---
 
-## About this study
 
 In this study, we are looking for participants in an interview-based approach to investigate the use of SCA (software composition analysis) tools. 
 The study aims to uncover how the tools play a part in security workflows and how users make decisions based on tool output.
@@ -29,11 +28,7 @@ We aim to answer the following research questions:
 
 We are looking for people who have experience with SCA tools or are part of an organization that uses SCA tools.
 
-We value and appreciate your contribution in our study and are committed to maintaining your privacy and confidentiality of all data you provide. 
-We will only use short quotes from the interviews in our publication with your approval, and will make sure that you cannot be identified from our reporting.
-
-Currently, we are still in the process of getting the study approved, 
-but if you are interested please shoot me an email at [etlin@ncsu.edu](mailto:etlin@ncsu.edu) and I will reach out when we plan to conduct interviews.
+For more details, please visit this page [here](https://s3c2.org/studies/sca-usability)!
 
 
 
