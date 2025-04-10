@@ -12,11 +12,9 @@ author_profile: true
 Software Composition Analysis (SCA) is often discussed in software supply chain security. 
 However, there lacks an understanding of how SCA tools are used and how they can be improved for better vulnerability management.
 
-We are currently recruiting participants for a study on SCA tools.
-
 More details [here](https://s3c2.org/studies/sca-usability)
 
-Feel free to contact me if interested!
+From talking to 20 industry professionals, we've discovered a lack of context along the entire SCA deployment process.
 
 ## UntrustIDE
 
