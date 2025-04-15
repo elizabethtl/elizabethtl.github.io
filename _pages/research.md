@@ -30,6 +30,8 @@ In total, we identified and verified vulnerabilities and their proof-of-concept 
 
 Don't want to read the full paper? My short [blog post](/untrustide) includes an overview of our methods, findings, and an example of how a vulnerable data flow in an extension could lead to code execution.
 
+**Also see my talk at NDSS [here](https://www.youtube.com/watch?v=QQ9W2FM1X-w)**
+
 ## Software Bill of Materials (SBoMs)
 
 A grey literature review was conducted on articles relating to the benefits and challenges of SBoMs.
