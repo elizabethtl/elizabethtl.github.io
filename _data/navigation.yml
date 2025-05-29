@@ -12,8 +12,8 @@ main:
   #   url: /sitemap/
   # - title: "Lin"
   #   url: /
-  - title: "About"
-    url: /about/
+  - title: "Experience"
+    url: /experience/
   - title: "Research"
     url: /research/
   - title: "Posts"
