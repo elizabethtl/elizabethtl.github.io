@@ -1,28 +1,31 @@
 ---
 layout: single
-title: About
-permalink: /about/
+title: Experiece
+permalink: /experience/
 author_profile: true
 ---
 
-## Education
+<h2> Education</h2>
 
 {% for edu in site.data.education %}
-  <strong>{{edu.school}}</strong>, {{edu.city}} 
-  <br>
-  <b>{{edu.degree}}</b>, {{edu.major}}
-  <br>
-  <i>{{edu.start}} ~ {{edu.end}}</i>
+<div style="display: flex; justify-content: space-between; font-size:85%;">
+  <strong>{{edu.school}}</strong>
+  {{edu.city}}
+</div>
+<div style="display: flex; justify-content: space-between;">
+  <p><b>{{edu.degree}},</b>{{edu.major}}</p>
+  <p><i>{{edu.start}} ~ {{edu.end}}</i></p>
+</div>
 {% endfor %}
 
-## Experience
+<h2> Experience</h2>
 
 {% for exp in site.data.experience %}
-  <strong>{{exp.job}}</strong> @ {{exp.company}}
+  <div style="font-size: 85%; margin: 0 0 0 1;"><strong>{{exp.job}}</strong> @ {{exp.company}}</div>
+  <div style="display: flex; justify-content: space-between; font-size: 80%; margin: 0 0 0 1;">
+    {{exp.city}}
+    <i>{{exp.start}} ~ {{exp.end}}</i>
+  </div>
+  <div style="font-size: 80%;">{{exp.desc}}</div>
   <br>
-  {{exp.city}}
-  <br>
-  <i>{{exp.start}} ~ {{exp.end}}</i>
-  <br>
-  {{exp.desc}}
 {% endfor%}
