@@ -12,8 +12,6 @@ author_profile: true
 Software Composition Analysis (SCA) is often discussed in software supply chain security. 
 However, there lacks an understanding of how SCA tools are used and how they can be improved for better vulnerability management.
 
-More details [here](https://s3c2.org/studies/sca-usability)
-
 From talking to 20 industry professionals, we've discovered a lack of context along the entire SCA deployment process.
 
 **See my talk @ VulnCon 2025**  
@@ -29,7 +27,7 @@ In total, we identified and verified vulnerabilities and their proof-of-concept 
 
 *Elizabeth Lin, Igibek Koishybayev, Trevor Dunlap, William Enck, and Alexandros Kapravelos.* [UntrustIDE: Exploiting Vulnerabilities in VS Code Extensions](https://www.ndss-symposium.org/ndss-paper/untrustide-exploiting-weaknesses-in-vs-code-extensions/)
 
-Don't want to read the full paper? My short [blog post](/untrustide) includes an overview of our methods, findings, and an example of how a vulnerable data flow in an extension could lead to code execution.
+Don't want to read the [full paper](../assets/UntrustIDE.pdf)? My short [blog post](/untrustide) includes an overview of our methods, findings, and an example of how a vulnerable data flow in an extension could lead to code execution.
 
 **Also see my talk at NDSS [here](https://www.youtube.com/watch?v=QQ9W2FM1X-w)**
 
