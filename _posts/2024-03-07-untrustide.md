@@ -56,6 +56,7 @@ CodeQL allows construction of queries to find certain data flows or code pattern
 
 We built 12 base CodeQL data flow queries. 
 Some additional *filter queries* were required to refine the data flow results, but I won't go into detail (you can read about it in the [paper](https://www.ndss-symposium.org/ndss-paper/untrustide-exploiting-weaknesses-in-vs-code-extensions/)).
+Our custom queries can be found [here](https://github.com/s3c2/UntrustIDE/).
 
 ## Findings
 

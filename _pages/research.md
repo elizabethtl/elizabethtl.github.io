@@ -17,13 +17,15 @@ From talking to 20 industry professionals, we've discovered a lack of context al
 **See my talk @ VulnCon 2025**  
 [Context Matters: Qualitative Insights into Developers’ Approaches and Challenges with Software Composition Analysis](https://youtu.be/g-SYh9v3W5Y?feature=shared)
 
+*To appear in at the 2025 USENIX Security Symposium*
+
 ## UntrustIDE
 
 **Distinguished Paper Award** @ NDSS Symposium 2024
 
 VS Code is the most popular IDE for developers. In this study we take a look at its extension ecosystem, the marketplace.
 As the first ecosystem-wide research, we proposed a threat model and identified vulnerabilities within the ecosystem with taint analysis using [CodeQL](https://codeql.github.com/).
-In total, we identified and verified vulnerabilities and their proof-of-concept exploits for 21 extensions, impacting 6 million users.
+With our [custom CodeQL queries](https://github.com/s3c2/UntrustIDE/), we identified and verified vulnerabilities and their proof-of-concept exploits for 21 extensions, impacting 6 million users.
 
 *Elizabeth Lin, Igibek Koishybayev, Trevor Dunlap, William Enck, and Alexandros Kapravelos.* [UntrustIDE: Exploiting Vulnerabilities in VS Code Extensions](https://www.ndss-symposium.org/ndss-paper/untrustide-exploiting-weaknesses-in-vs-code-extensions/)
 
