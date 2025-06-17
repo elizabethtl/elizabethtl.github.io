@@ -7,12 +7,13 @@ author_profile: true
 
 # Research
 
-## SCA Usability
+## Context Matters
 
 Software Composition Analysis (SCA) is often discussed in software supply chain security. 
 However, there lacks an understanding of how SCA tools are used and how they can be improved for better vulnerability management.
 
 From talking to 20 industry professionals, we've discovered a lack of context along the entire SCA deployment process.
+SCA alerts are too generic and lack infrastructure, network configuration, reachability, and exploitability context.
 
 **See my talk @ VulnCon 2025**  
 [Context Matters: Qualitative Insights into Developers’ Approaches and Challenges with Software Composition Analysis](https://youtu.be/g-SYh9v3W5Y?feature=shared)
