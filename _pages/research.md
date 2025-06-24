@@ -9,6 +9,8 @@ author_profile: true
 
 ## Context Matters
 
+*To appear in at the 2025 USENIX Security Symposium*
+
 Software Composition Analysis (SCA) is often discussed in software supply chain security. 
 SCA tools are used to identify vulnerabilities in third-party software. 
 
@@ -16,7 +18,7 @@ Some prior work have looked into how SCA tools perform.
 However, there lacks an understanding of user experience with SCA tools.
 - How are SCA tools integrated into the CI/CD pipeline?
 - What challenges arise when scaling SCA tools to large organizations?
-- How they can SCA tools be improved for better vulnerability management?
+- How can SCA tools be improved for better vulnerability management?
 
 We talked to 20 industry professionals and discovered *a lack of context* along the entire SCA deployment process.
 In short, we find the following:
@@ -26,11 +28,10 @@ In short, we find the following:
 Large organizations develop custom tooling around SCA tool results to better manage and triage the alerts.
 
 
-
 **See my talk @ VulnCon 2025**  
 [Context Matters: Qualitative Insights into Developers’ Approaches and Challenges with Software Composition Analysis](https://youtu.be/g-SYh9v3W5Y?feature=shared)
 
-*To appear in at the 2025 USENIX Security Symposium*
+
 
 ## UntrustIDE
 
