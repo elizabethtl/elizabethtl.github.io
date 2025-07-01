@@ -9,7 +9,7 @@ author_profile: true
 
 ## Context Matters
 
-*To appear in at the 2025 USENIX Security Symposium*
+*To appear at the 2025 USENIX Security Symposium*
 
 Software Composition Analysis (SCA) is often discussed in software supply chain security. 
 SCA tools are used to identify vulnerabilities in third-party software. 
