@@ -28,6 +28,10 @@ In short, we find the following:
 Large organizations develop custom tooling around SCA tool results to better manage and triage the alerts.
 
 
+*Elizabeth Lin, Sparsha Gowda, William Enck, Dominik Wermke* [Context Matters: Qualitative Insights into Developers’ Approaches and Challenges with Software Composition Analysis](https://www.usenix.org/conference/usenixsecurity25/presentation/lin-elizabeth)
+
+Read the [full paper here](../assets/context-matters.pdf)
+
 **See my talk @ VulnCon 2025**  
 [Context Matters: Qualitative Insights into Developers’ Approaches and Challenges with Software Composition Analysis](https://youtu.be/g-SYh9v3W5Y?feature=shared)
 
