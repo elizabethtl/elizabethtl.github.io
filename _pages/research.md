@@ -20,13 +20,10 @@ SCA tools are used to identify vulnerabilities in third-party software.
 
 Some prior work have looked into how SCA tools perform.
 However, there lacks an understanding of user experience with SCA tools.
-- How are SCA tools integrated into the CI/CD pipeline?
-- What challenges arise when scaling SCA tools to large organizations?
-- How can SCA tools be improved for better vulnerability management?
 
 We talked to 20 industry professionals and discovered *a lack of context* along the entire SCA deployment process.
 In short, we find the following:
-- SCA alerts are too generic and lack infrastructure, network configuration, reachability, and exploitability context.
+- SCA alerts are too generic and lack **infrastructure**, **network configuration**, **reachability**, and **exploitability** context.
 - Integrating SCA tools into pipelines can halt development if builds are failed on every SCA alert.
 - Scaling SCA across multiple teams and projects can result in communication overhead.
 Large organizations develop custom tooling around SCA tool results to better manage and triage the alerts.
