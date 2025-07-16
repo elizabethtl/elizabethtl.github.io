@@ -13,7 +13,7 @@ toc_sticky: true
 
 ---
 
-## Software Composition Analysis
+## What is Software Composition Analysis
 
 Software Composition Analysis or SCA is a process used to identify open-source and third-party components, which can help with identifying vulnerabilities in them.
 
@@ -47,7 +47,7 @@ We talked to each of them for ~45 minutes, asking questions based on our 4 main 
 **RQ3:** What are the challenges when acting on SCA results?  
 **RQ4:** How can the SCA process be improved?
 
-After talking to our participants, we conducted a two-party qualitative coding on the interview transcripts.
+After talking to our participants, we conducted two-party qualitative coding on the interview transcripts.
 We came up with a codebook, essentially a mapping for our findings, based off of our interview questions.
 As we analyzed each interview transcript, we assigned codes to each of the findings.
 
@@ -60,7 +60,7 @@ We included many more quotes from participants and it provides a clearer picture
 The following figure summarized our findings of the SCA process:
 <figure>
   <img src='../assets/images/context-matters-sca-sdlc-detailed.svg' style="width:75%; max-width:700px; display:block; margin-left:auto; margin-right:auto;">
-  <figcaption>Representation of SCA tool</figcaption>
+  <figcaption>SCA in software development</figcaption>
 </figure>
 
 ### Different ecosystems
