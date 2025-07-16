@@ -17,7 +17,6 @@ toc_sticky: true
 
 Software Composition Analysis (SCA) is often discussed in software supply chain security. 
 SCA tools are used to identify vulnerabilities in third-party software. 
-
 Some prior work have looked into how SCA tools perform.
 However, there lacks an understanding of user experience with SCA tools.
 
@@ -32,8 +31,7 @@ Large organizations develop custom tooling around SCA tool results to better man
 Read the [full paper here](../assets/context-matters.pdf).
 Or read this [blog post](../_posts/2025-07-16-context-matters.md) I wrote that summarized our paper and findings.
 
-**See my talk @ VulnCon 2025**  
-[Context Matters: Qualitative Insights into Developers’ Approaches and Challenges with Software Composition Analysis](https://youtu.be/g-SYh9v3W5Y?feature=shared)
+**See my talk @ VulnCon 2025 [here](https://youtu.be/g-SYh9v3W5Y?feature=shared)**
 
 
 
