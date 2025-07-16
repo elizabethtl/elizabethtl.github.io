@@ -1,8 +1,12 @@
 ---
-layout: posts
-title:  Weaknesses in VS Code Extensions
+layout: single
+title:  "UntrustIDE: Weaknesses in VS Code Extensions"
 author_profile: true
+toc: true
+toc_sticky: true
 ---
+
+# UntrustIDE: Weaknesses in VS Code Extensions
 
 *TLDR: We found vulnerabilities in VS Code extensions and verified code execution exploits impacting more than 6 million installations. We also found that more than a fifth of the extensions import dependencies with a critical-level security advisory.*
 
