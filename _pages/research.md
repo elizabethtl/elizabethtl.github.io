@@ -9,11 +9,12 @@ toc_sticky: true
 
 # Research
 
-## Context Matters (SCA)
+## [Context Matters](../_posts/2025-07-16-context-matters.md) (SCA)
+
+[Context Matters: Qualitative Insights into Developers’ Approaches and Challenges with Software Composition Analysis](https://www.usenix.org/conference/usenixsecurity25/presentation/lin-elizabeth)  
+*Elizabeth Lin, Sparsha Gowda, William Enck, Dominik Wermke* 
 
 *To appear at the 2025 USENIX Security Symposium*
-
-*Elizabeth Lin, Sparsha Gowda, William Enck, Dominik Wermke* [Context Matters: Qualitative Insights into Developers’ Approaches and Challenges with Software Composition Analysis](https://www.usenix.org/conference/usenixsecurity25/presentation/lin-elizabeth)
 
 Software Composition Analysis (SCA) is often discussed in software supply chain security. 
 SCA tools are used to identify vulnerabilities in third-party software. 
@@ -28,23 +29,22 @@ In short, we find the following:
 Large organizations develop custom tooling around SCA tool results to better manage and triage the alerts.
 
 
-Read the [full paper here](../assets/context-matters.pdf).
-Or read this [blog post](../_posts/2025-07-16-context-matters.md) I wrote that summarized our paper and findings.
+Read the [full paper here](../assets/context-matters.pdf), or read this [blog post](../_posts/2025-07-16-context-matters.md) I wrote that summarizes our paper and findings.
 
 **See my talk @ VulnCon 2025 [here](https://youtu.be/g-SYh9v3W5Y?feature=shared)**
 
 
 
-## UntrustIDE (VSCode extensions)
+## [UntrustIDE](../_posts/2024-03-07-untrustide.md) (VSCode extensions)
+
+[UntrustIDE: Exploiting Vulnerabilities in VS Code Extensions](https://www.ndss-symposium.org/ndss-paper/untrustide-exploiting-weaknesses-in-vs-code-extensions/)  
+*Elizabeth Lin, Igibek Koishybayev, Trevor Dunlap, William Enck, and Alexandros Kapravelos.* 
 
 **Distinguished Paper Award** @ NDSS Symposium 2024
-
-*Elizabeth Lin, Igibek Koishybayev, Trevor Dunlap, William Enck, and Alexandros Kapravelos.* [UntrustIDE: Exploiting Vulnerabilities in VS Code Extensions](https://www.ndss-symposium.org/ndss-paper/untrustide-exploiting-weaknesses-in-vs-code-extensions/)
 
 VS Code is the most popular IDE for developers. In this study we take a look at its extension ecosystem, the marketplace.
 As the first ecosystem-wide research, we proposed a threat model and identified vulnerabilities within the ecosystem with taint analysis using [CodeQL](https://codeql.github.com/).
 With our [custom CodeQL queries](https://github.com/s3c2/UntrustIDE/), we identified and verified vulnerabilities and their proof-of-concept exploits for 21 extensions, impacting 6 million users.
-
 
 
 Don't want to read the [full paper](../assets/UntrustIDE.pdf)? My short [blog post](/untrustide) includes an overview of our methods, findings, and an example of how a vulnerable data flow in an extension could lead to code execution.
@@ -53,7 +53,8 @@ Don't want to read the [full paper](../assets/UntrustIDE.pdf)? My short [blog po
 
 ## Software Bill of Materials (SBoMs)
 
-*Nusrat Zahan, Elizabeth Lin, Mahzabin Tamanna, William Enck, and Laurie Williams.* [Software Bills of Materials Are Required. Are We There Yet?](https://ieeexplore.ieee.org/abstract/document/10102604?casa_token=NVD2tRbNNHUAAAAA:vbRR4xuGYuPFZgiUntR7TiZZDW-yY6juXO3XAYDyFKAPEBQ037xjRgYy6BfhP7DUrx5zgQP27g) IEEE Security & Privacy 21, no. 2 (2023): 82-88.
+[Software Bills of Materials Are Required. Are We There Yet?](https://ieeexplore.ieee.org/abstract/document/10102604?casa_token=NVD2tRbNNHUAAAAA:vbRR4xuGYuPFZgiUntR7TiZZDW-yY6juXO3XAYDyFKAPEBQ037xjRgYy6BfhP7DUrx5zgQP27g) IEEE Security & Privacy 21, no. 2 (2023): 82-88.  
+*Nusrat Zahan, Elizabeth Lin, Mahzabin Tamanna, William Enck, and Laurie Williams.* 
 
 A grey literature review was conducted on articles relating to the benefits and challenges of SBoMs.
 
@@ -62,14 +63,12 @@ The top 5 benefits and challenges are outlined in the above article.
 
 ## VFCFinder
 
+[VFCFinder: Seamlessly Pairing Security Advisories and Patches](https://arxiv.org/abs/2311.01532)  
 *Trevor Dunlap, Elizabeth Lin, William Enck, and Bradley Reaves.*
-[VFCFinder: Seamlessly Pairing Security Advisories and Patches](https://arxiv.org/abs/2311.01532)
 
 A tool that generated the top 5 vulnerable fixing commits for a given security advisory.
 
 VFCFinder used to backfill over 300 missing VFCs in the GitHub Security Advisory (GHSA) database.
-
-
 
 
 

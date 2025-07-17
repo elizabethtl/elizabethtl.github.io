@@ -19,27 +19,27 @@ Software Composition Analysis or SCA is a process used to identify open-source a
 
 As the use of third-party components rise, SCA tools have become more prevalent.
 However, SCA tools have not kept up with the ever growing number of new vulnerabilities each year.
-Developers are flooded with vulnerability alerts and often struggle to quickly remediate critical issues with external components.
+Developers are **flooded with vulnerability alerts** and often struggle to quickly remediate critical issues with external components.
 
 <figure>
   <img src='../assets/images/context-matters-sca-tool.svg' style="width:70%; max-width:700px; display:block; margin-left:auto; margin-right:auto;">
   <figcaption>Representation of SCA tool</figcaption>
 </figure>
 
-For example, in the figure above. If CVE E does not affect your application, you would want the SCA tool to not alert you of it. However, most SCA tools alert the user of every vulnerability found in the components. 
+For example, in the figure above: if *CVE F* does not affect your application, you would want the SCA tool to not alert you of it. However, most SCA tools alert the user of every vulnerability found in the components. 
 
-As the number of components and vulnerabilities grow, users can be faced with alert fatigue.
+As the number of components and vulnerabilities grow, users can be faced with **alert fatigue**.
 
 ## Our approach
 
 Previous studies have looked at how different SCA tools perform compared to each other. 
 The studies found that different SCA tools provide varying results.
-However, there lacks an understanding of user experience with SCA tools.
+However, there **lacks an understanding of user experience with SCA tools**.
 - How are SCA tools integrated into the CI/CD pipeline?
 - What challenges arise when scaling SCA tools to large organizations?
 - How can SCA tools be improved for better vulnerability management?
 
-To address the gaps around integration and encountered challenges, we conducted 20 semi-structured interviews with industry professionals with SCA experience.
+To address the gaps around integration and encountered challenges, we conducted **20 semi-structured interviews** with industry professionals with SCA experience.
 
 We talked to each of them for ~45 minutes, asking questions based on our 4 main research questions:  
 **RQ1:** How do users interact with SCA tools?  
@@ -53,15 +53,16 @@ As we analyzed each interview transcript, we assigned codes to each of the findi
 
 ## Findings: Challenges with SCA
 
-Here I try to summarize our findings, keeping this post short.
+We initially started our project with a simple understanding of the SCA process, as the first figure below.
+As we talked to more developers, we learned about various challenges with SCA, and our understanding of the SCA process transformed into the second figure below.
+<figure>
+  <img src='../assets/images/context-matters-sca-sdlc-combined.svg' style="width:85%; max-width:700px; display:block; margin-left:auto; margin-right:auto;">
+  <figcaption>How our understanding of SCA in software development changed through the project</figcaption>
+</figure>
+
+Below, I summarize some of our interesting findings.
 But I do encourage you to read our [full paper](../assets/context-matters.pdf)! 
 We included many more quotes from participants and it provides a clearer picture of the challenges with SCA tools.
-
-The following figure summarized our findings of the SCA process:
-<figure>
-  <img src='../assets/images/context-matters-sca-sdlc-detailed.svg' style="width:75%; max-width:700px; display:block; margin-left:auto; margin-right:auto;">
-  <figcaption>SCA in software development</figcaption>
-</figure>
 
 ### Different ecosystems
 
