@@ -11,3 +11,19 @@ search: false
 .right {
   text-align: right;
 }
+
+
+.author-link {
+  color: #53585c;
+  text-decoration: none;
+}
+
+.author-link:visited {
+  color: #53585c;
+  text-decoration: none;
+}
+
+.author-link:hover {
+  color: #27292b;
+  text-decoration: underline;
+}

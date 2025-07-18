@@ -7,12 +7,14 @@ toc: true
 toc_sticky: true
 ---
 
+
+
 # Research
 
 ## [Context Matters](../_posts/2025-07-16-context-matters.md) (SCA)
 
 [Context Matters: Qualitative Insights into Developers’ Approaches and Challenges with Software Composition Analysis](https://www.usenix.org/conference/usenixsecurity25/presentation/lin-elizabeth)  
-*Elizabeth Lin, Sparsha Gowda, William Enck, Dominik Wermke* 
+*__Elizabeth Lin__, Sparsha Gowda, <a href="https://enck.org/" class="author-link">William Enck</a>, and <a href="https://dwermke.com/" class="author-link">Dominik Wermke</a>* 
 
 *To appear at the 2025 USENIX Security Symposium*
 
@@ -38,7 +40,7 @@ Read the [full paper here](../assets/context-matters.pdf), or read this [blog po
 ## [UntrustIDE](../_posts/2024-03-07-untrustide.md) (VSCode extensions)
 
 [UntrustIDE: Exploiting Vulnerabilities in VS Code Extensions](https://www.ndss-symposium.org/ndss-paper/untrustide-exploiting-weaknesses-in-vs-code-extensions/)  
-*Elizabeth Lin, Igibek Koishybayev, Trevor Dunlap, William Enck, and Alexandros Kapravelos.* 
+*__Elizabeth Lin__, <a href="https://igibek.com/" class="author-link">Igibek Koishybayev</a>, Trevor Dunlap, <a href="https://enck.org/" class="author-link">William Enck</a>, and <a href="https://www.kapravelos.com/" class="author-link">Alexandros Kapravelos</a>.* 
 
 **Distinguished Paper Award** @ NDSS Symposium 2024
 
@@ -54,7 +56,7 @@ Don't want to read the [full paper](../assets/UntrustIDE.pdf)? My short [blog po
 ## Abandabot
 
 [Designing Abandabot: When Does Open Source Dependency Abandonment Matter?](https://courtney-e-miller.github.io/papers/designingAbandabot.pdf)  
-Courtney Miller\*, Hao He\*, Weigen Chen, Elizabeth Lin, Chenyang Yang, Bogdan Vasilescu, Christian Kästner 
+*<a href="https://courtney-e-miller.github.io/" class="author-link">Courtney Miller</a>\*, <a href="https://hehao98.github.io/" class="author-link">Hao He</a>\*, Weigen Chen, __Elizabeth Lin__, <a href="https://www.cs.cmu.edu/~cyang3/" class="author-link">Chenyang Yang</a>, <a href="https://bvasiles.github.io/" class="author-link">Bogdan Vasilescu</a>, and <a href="https://www.cs.cmu.edu/~ckaestne/" class="author-link">Christian Kästner</a>*
 
 We perform a need-finding interview study with 22 open source maintainers to explore what makes the abandonment of certain dependencies impactful to their project, as well as their information needs and design requirements for such an automated notification tool.
 We build an LLM-based classifier based on: *depth of integration*, *availability of alternatives*, *importance of the functionality*, and *external environmental pressures*.
@@ -64,7 +66,7 @@ Our results show that the classifier is effective at predicting whether a depend
 ## Software Bill of Materials (SBoMs)
 
 [Software Bills of Materials Are Required. Are We There Yet?](https://ieeexplore.ieee.org/abstract/document/10102604?casa_token=NVD2tRbNNHUAAAAA:vbRR4xuGYuPFZgiUntR7TiZZDW-yY6juXO3XAYDyFKAPEBQ037xjRgYy6BfhP7DUrx5zgQP27g) IEEE Security & Privacy 21, no. 2 (2023): 82-88.  
-*Nusrat Zahan, Elizabeth Lin, Mahzabin Tamanna, William Enck, and Laurie Williams.* 
+*<a href="https://www.nzahan.net/" class="author-link">Nusrat Zahan</a>, __Elizabeth Lin__, <a href="https://sites.google.com/view/mahzabintamanna/home" class="author-link">Mahzabin Tamanna</a>, <a href="https://enck.org/" class="author-link">William Enck</a>, and <a href="https://www.csc.ncsu.edu/people/lawilli3" class="author-link">Laurie Williams</a>.* 
 
 A grey literature review was conducted on articles relating to the benefits and challenges of SBoMs.
 
@@ -74,7 +76,7 @@ The top 5 benefits and challenges are outlined in the above article.
 ## VFCFinder
 
 [VFCFinder: Seamlessly Pairing Security Advisories and Patches](https://arxiv.org/abs/2311.01532)  
-*Trevor Dunlap, Elizabeth Lin, William Enck, and Bradley Reaves.*
+*Trevor Dunlap, __Elizabeth Lin__, <a href="https://enck.org/" class="author-link">William Enck</a>, and <a href="https://bradreaves.net/" class="author-link">Bradley Reaves</a>.*
 
 A tool that generated the top 5 vulnerable fixing commits for a given security advisory.
 
