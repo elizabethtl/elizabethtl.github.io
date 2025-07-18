@@ -18,7 +18,7 @@ I'm currently doing security research at the [Wolfpack Security and Privacy Rese
 
 **I'm open to full-time opportunities in the next 6~12 months**, feel free to contact me if you think I'd be a fit!
 
-Research-wise, anything that's a problem interests me. I've worked on multiple projects, both technical and qualitative studies on security. (more about my research [here](/research))
+Research-wise, anything that's a problem interests me. I've worked on multiple projects, both **technical and qualitative studies** on security. (more about my research [here](/research))
 
-Right now, I'm focusing on securing the software supply chain and triaging vulnerabilities.
+Right now, I'm focusing on securing the **software supply chain** and triaging **vulnerabilities**.
 But I've also had experience with full stack web development with JavaScript.
