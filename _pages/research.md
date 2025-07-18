@@ -12,7 +12,7 @@ toc_sticky: true
 ## [Context Matters](../_posts/2025-07-16-context-matters.md) (SCA)
 
 [Context Matters: Qualitative Insights into Developers’ Approaches and Challenges with Software Composition Analysis](https://www.usenix.org/conference/usenixsecurity25/presentation/lin-elizabeth)  
-*Elizabeth Lin, Sparsha Gowda, William Enck, Dominik Wermke* 
+*__Elizabeth Lin__, Sparsha Gowda, William Enck, Dominik Wermke* 
 
 *To appear at the 2025 USENIX Security Symposium*
 
@@ -38,7 +38,7 @@ Read the [full paper here](../assets/context-matters.pdf), or read this [blog po
 ## [UntrustIDE](../_posts/2024-03-07-untrustide.md) (VSCode extensions)
 
 [UntrustIDE: Exploiting Vulnerabilities in VS Code Extensions](https://www.ndss-symposium.org/ndss-paper/untrustide-exploiting-weaknesses-in-vs-code-extensions/)  
-*Elizabeth Lin, Igibek Koishybayev, Trevor Dunlap, William Enck, and Alexandros Kapravelos.* 
+*__Elizabeth Lin__, Igibek Koishybayev, Trevor Dunlap, William Enck, and Alexandros Kapravelos.* 
 
 **Distinguished Paper Award** @ NDSS Symposium 2024
 
@@ -54,7 +54,7 @@ Don't want to read the [full paper](../assets/UntrustIDE.pdf)? My short [blog po
 ## Abandabot
 
 [Designing Abandabot: When Does Open Source Dependency Abandonment Matter?](https://courtney-e-miller.github.io/papers/designingAbandabot.pdf)  
-Courtney Miller\*, Hao He\*, Weigen Chen, Elizabeth Lin, Chenyang Yang, Bogdan Vasilescu, Christian Kästner 
+Courtney Miller\*, Hao He\*, Weigen Chen, __Elizabeth Lin__, Chenyang Yang, Bogdan Vasilescu, Christian Kästner 
 
 We perform a need-finding interview study with 22 open source maintainers to explore what makes the abandonment of certain dependencies impactful to their project, as well as their information needs and design requirements for such an automated notification tool.
 We build an LLM-based classifier based on: *depth of integration*, *availability of alternatives*, *importance of the functionality*, and *external environmental pressures*.
@@ -64,7 +64,7 @@ Our results show that the classifier is effective at predicting whether a depend
 ## Software Bill of Materials (SBoMs)
 
 [Software Bills of Materials Are Required. Are We There Yet?](https://ieeexplore.ieee.org/abstract/document/10102604?casa_token=NVD2tRbNNHUAAAAA:vbRR4xuGYuPFZgiUntR7TiZZDW-yY6juXO3XAYDyFKAPEBQ037xjRgYy6BfhP7DUrx5zgQP27g) IEEE Security & Privacy 21, no. 2 (2023): 82-88.  
-*Nusrat Zahan, Elizabeth Lin, Mahzabin Tamanna, William Enck, and Laurie Williams.* 
+*Nusrat Zahan, __Elizabeth Lin__, Mahzabin Tamanna, William Enck, and Laurie Williams.* 
 
 A grey literature review was conducted on articles relating to the benefits and challenges of SBoMs.
 
@@ -74,7 +74,7 @@ The top 5 benefits and challenges are outlined in the above article.
 ## VFCFinder
 
 [VFCFinder: Seamlessly Pairing Security Advisories and Patches](https://arxiv.org/abs/2311.01532)  
-*Trevor Dunlap, Elizabeth Lin, William Enck, and Bradley Reaves.*
+*Trevor Dunlap, __Elizabeth Lin__, William Enck, and Bradley Reaves.*
 
 A tool that generated the top 5 vulnerable fixing commits for a given security advisory.
 
