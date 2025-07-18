@@ -51,6 +51,16 @@ Don't want to read the [full paper](../assets/UntrustIDE.pdf)? My short [blog po
 
 **Also see my talk at NDSS [here](https://www.youtube.com/watch?v=QQ9W2FM1X-w)**
 
+## Abandabot
+
+[Designing Abandabot: When Does Open Source Dependency Abandonment Matter?](https://courtney-e-miller.github.io/papers/designingAbandabot.pdf)  
+Courtney Miller\*, Hao He\*, Weigen Chen, Elizabeth Lin, Chenyang Yang, Bogdan Vasilescu, Christian Kästner 
+
+We perform a need-finding interview study with 22 open source maintainers to explore what makes the abandonment of certain dependencies impactful to their project, as well as their information needs and design requirements for such an automated notification tool.
+We build an LLM-based classifier based on: *depth of integration*, *availability of alternatives*, *importance of the functionality*, and *external environmental pressures*.
+
+Our results show that the classifier is effective at predicting whether a dependency’s abandonment would be impactful to a project.
+
 ## Software Bill of Materials (SBoMs)
 
 [Software Bills of Materials Are Required. Are We There Yet?](https://ieeexplore.ieee.org/abstract/document/10102604?casa_token=NVD2tRbNNHUAAAAA:vbRR4xuGYuPFZgiUntR7TiZZDW-yY6juXO3XAYDyFKAPEBQ037xjRgYy6BfhP7DUrx5zgQP27g) IEEE Security & Privacy 21, no. 2 (2023): 82-88.  
