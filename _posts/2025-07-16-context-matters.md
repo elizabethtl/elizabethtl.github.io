@@ -51,7 +51,7 @@ After talking to our participants, we conducted two-party qualitative coding on 
 We came up with a codebook, essentially a mapping for our findings, based off of our interview questions.
 As we analyzed each interview transcript, we assigned codes to each of the findings.
 
-## Findings: Challenges with SCA
+## Main Finding: Context Matters
 
 We initially started our project with a simple understanding of the SCA process, as the first figure below.
 As we talked to more developers, we learned about various challenges with SCA, and our understanding of the SCA process transformed into the second figure below.
@@ -60,29 +60,43 @@ As we talked to more developers, we learned about various challenges with SCA, a
   <figcaption>How our understanding of SCA in software development changed through the project</figcaption>
 </figure>
 
-Below, I summarize some of our interesting findings.
+We found many challenges with SCA, which we grouped into 3 themes.
+
+**T1: More information is needed to evaluate the risk and impact of the vulnerability alert.**  
+SCA alerts are too generic, developers often need to put in additional manual effort to interpret the alert.
+
+**T2: When and how the SCA scan runs in the development cycle matter.**  
+SCA can act as security gates in software development, which could lead to halting development.
+
+**T3: Integration of SCA and communication of the results can generate overhead if there is not enough context present.**  
+Combining **T1** and **T2**, the issues with integration and the results can lead to overhead in the SCA process.
+The overhead is amplified when scaling SCA to multiple projects and teams.
+Large organizations often have to develop custom tooling around SCA results to manage the large number of SCA alerts.
+
+
+Below are some of our interesting findings.
 But I do encourage you to read our [full paper](../assets/context-matters.pdf)! 
 We included many more quotes from participants and it provides a clearer picture of the challenges with SCA tools.
 
-### Different ecosystems
+### Different ecosystems (T2)
 
 Participants pointed out that different SCA tools have different strengths and weaknesses.
 
 For example, one participant mentioned:
-> Both T05 and T06 were pretty good at certain languages. I think T05 was really good at Java, and probably Python. [...] they were both pretty bad at Go
+> "Both T05 and T06 were pretty good at certain languages. I think T05 was really good at Java, and probably Python. [...] they were both pretty bad at Go"
 
 Some participants shared that they use multiple SCA tools as each has different strengths.
 
 One of the participants with SCA development experience and shared their thoughts and reasoning for this:
-> All the package managers are different. So you have to have exceptions for each one and you have to figure out what those exceptions are.
+> "All the package managers are different. So you have to have exceptions for each one and you have to figure out what those exceptions are."
 
-### Interpreting SCA results
+### Interpreting SCA results (T1)
 
 Determining the impact of a vulnerability reported by the tool is a big challenge. 
 From just the SCA alert, users often cannont decide what the impact of the vulnerability is on their application. Additional manual triaging is often required.
-> I will look at the findings from the SCA tool and triage them and determine which ones need to be tickets that would then go to the engineering team for remediation.
+> "I will look at the findings from the SCA tool and triage them and determine which ones need to be tickets that would then go to the engineering team for remediation."
 
-### Fixing vulnerabilities
+### Fixing vulnerabilities (T1, T3)
 
 Resolving the alerts can also be challenging. 
 The easiest way is often to update the outdated component, but that could introduce breaking changes:
@@ -99,7 +113,7 @@ In those cases, developers choose to isolate the vulnerable component, as removi
 > "Most security vulnerabilities, the risk of that can be negated if you basically just make sure that it doesn’t have a connection to the internet."
 
 
-### Tradeoffs of integrating SCA in CI/CD pipelines
+### Tradeoffs of integrating SCA in CI/CD pipelines (T2)
 
 Most participants report they integrate SCA into automated pipelines and run the frequently.
 SCA tools act as a gate and can reject code changes.
@@ -111,7 +125,7 @@ One participant shared that they switched to running the SCA manually because of
 
 The balance between running SCA scans and keeping the development pipeline flowing is a challenge, similar to the tension between security and usability.
 
-### Managing SCA alerts at scale
+### Managing SCA alerts at scale (T3)
 
 Some participants manage SCA alerts on a large scale and shared their organization built custom tooling around the SCA alerts.
 The tooling would be able to resolve previously fixed vulnerabilities, which helps reduce the effort to fix the same vulnerabilities over and over:
