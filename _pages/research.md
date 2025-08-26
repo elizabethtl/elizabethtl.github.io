@@ -14,7 +14,7 @@ toc_sticky: true
 [Context Matters: Qualitative Insights into Developers’ Approaches and Challenges with Software Composition Analysis](https://www.usenix.org/conference/usenixsecurity25/presentation/lin-elizabeth)  
 *__Elizabeth Lin__, Sparsha Gowda, William Enck, Dominik Wermke* 
 
-*To appear at the 2025 USENIX Security Symposium*
+*Published at the 2025 USENIX Security Symposium*
 
 Software Composition Analysis (SCA) is often discussed in software supply chain security. 
 SCA tools are used to identify vulnerabilities in third-party software. 
@@ -56,10 +56,25 @@ Don't want to read the [full paper](../assets/UntrustIDE.pdf)? My short [blog po
 [Designing Abandabot: When Does Open Source Dependency Abandonment Matter?](https://courtney-e-miller.github.io/papers/designingAbandabot.pdf)  
 Courtney Miller\*, Hao He\*, Weigen Chen, __Elizabeth Lin__, Chenyang Yang, Bogdan Vasilescu, Christian Kästner 
 
+*To appear in ICSE 2026*
+
 We perform a need-finding interview study with 22 open source maintainers to explore what makes the abandonment of certain dependencies impactful to their project, as well as their information needs and design requirements for such an automated notification tool.
 We build an LLM-based classifier based on: *depth of integration*, *availability of alternatives*, *importance of the functionality*, and *external environmental pressures*.
 
 Our results show that the classifier is effective at predicting whether a dependency’s abandonment would be impactful to a project.
+
+## VFCFinder
+
+[VFCFinder: Seamlessly Pairing Security Advisories and Patches](https://dl.acm.org/doi/abs/10.1145/3634737.3657007)  
+*Trevor Dunlap, __Elizabeth Lin__, William Enck, and Bradley Reaves.*
+
+*Published at ASIA CCS 2024*
+
+Security advisories lack crucial information, such as the patch for the fix.
+We introduce a tool that generated the top 5 vulnerable fixing commits for a given security advisory.
+
+VFCFinder was used to backfill over 300 missing VFCs in the GitHub Security Advisory (GHSA) database.
+
 
 ## Software Bill of Materials (SBoMs)
 
@@ -69,18 +84,6 @@ Our results show that the classifier is effective at predicting whether a depend
 A grey literature review was conducted on articles relating to the benefits and challenges of SBoMs.
 
 The top 5 benefits and challenges are outlined in the above article.
-
-
-## VFCFinder
-
-[VFCFinder: Seamlessly Pairing Security Advisories and Patches](https://arxiv.org/abs/2311.01532)  
-*Trevor Dunlap, __Elizabeth Lin__, William Enck, and Bradley Reaves.*
-
-A tool that generated the top 5 vulnerable fixing commits for a given security advisory.
-
-VFCFinder used to backfill over 300 missing VFCs in the GitHub Security Advisory (GHSA) database.
-
-
 
 
 
