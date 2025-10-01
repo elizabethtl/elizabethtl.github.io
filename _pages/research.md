@@ -9,6 +9,24 @@ toc_sticky: true
 
 # Research
 
+
+## [UntrustIDE](../_posts/2024-03-07-untrustide.md) (VSCode extensions)
+
+[UntrustIDE: Exploiting Vulnerabilities in VS Code Extensions](https://www.ndss-symposium.org/ndss-paper/untrustide-exploiting-weaknesses-in-vs-code-extensions/)  
+*__Elizabeth Lin__, Igibek Koishybayev, Trevor Dunlap, William Enck, and Alexandros Kapravelos.* 
+
+**Distinguished Paper Award** @ NDSS Symposium 2024
+
+VS Code is the most popular IDE for developers. In this study we take a look at its extension ecosystem, the marketplace.
+As the first ecosystem-wide research, we proposed a threat model and identified vulnerabilities within the ecosystem with taint analysis using [CodeQL](https://codeql.github.com/).
+With our [custom CodeQL queries](https://github.com/s3c2/UntrustIDE/), we identified and verified vulnerabilities and their proof-of-concept exploits for 21 extensions, impacting 6 million users.
+
+
+Don't want to read the [full paper](../assets/UntrustIDE.pdf)? My short [blog post](/untrustide) includes an overview of our methods, findings, and an example of how a vulnerable data flow in an extension could lead to code execution.
+
+**Also see my talk at NDSS [here](https://www.youtube.com/watch?v=QQ9W2FM1X-w)**
+
+
 ## [Context Matters](../_posts/2025-07-16-context-matters.md) (SCA)
 
 [Context Matters: Qualitative Insights into Developers’ Approaches and Challenges with Software Composition Analysis](https://www.usenix.org/conference/usenixsecurity25/presentation/lin-elizabeth)  
@@ -33,23 +51,6 @@ Read the [full paper here](../assets/context-matters.pdf), or read this [blog po
 
 **See my talk @ VulnCon 2025 [here](https://youtu.be/g-SYh9v3W5Y?feature=shared)**
 
-
-
-## [UntrustIDE](../_posts/2024-03-07-untrustide.md) (VSCode extensions)
-
-[UntrustIDE: Exploiting Vulnerabilities in VS Code Extensions](https://www.ndss-symposium.org/ndss-paper/untrustide-exploiting-weaknesses-in-vs-code-extensions/)  
-*__Elizabeth Lin__, Igibek Koishybayev, Trevor Dunlap, William Enck, and Alexandros Kapravelos.* 
-
-**Distinguished Paper Award** @ NDSS Symposium 2024
-
-VS Code is the most popular IDE for developers. In this study we take a look at its extension ecosystem, the marketplace.
-As the first ecosystem-wide research, we proposed a threat model and identified vulnerabilities within the ecosystem with taint analysis using [CodeQL](https://codeql.github.com/).
-With our [custom CodeQL queries](https://github.com/s3c2/UntrustIDE/), we identified and verified vulnerabilities and their proof-of-concept exploits for 21 extensions, impacting 6 million users.
-
-
-Don't want to read the [full paper](../assets/UntrustIDE.pdf)? My short [blog post](/untrustide) includes an overview of our methods, findings, and an example of how a vulnerable data flow in an extension could lead to code execution.
-
-**Also see my talk at NDSS [here](https://www.youtube.com/watch?v=QQ9W2FM1X-w)**
 
 ## Abandabot
 
