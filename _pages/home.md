@@ -20,5 +20,7 @@ I'm currently doing security research at the [Wolfpack Security and Privacy Rese
 
 Research-wise, anything that's a problem interests me. I've worked on multiple projects, both **technical and qualitative studies** on security. (more about my research [here](/research))
 
+I've also **given talks and presented my work at** various academic (NDSS, USENIX) and industry (VulnCon, InfoSeCon) **conferences**.
+
 Right now, I'm focusing on securing the **software supply chain** and triaging **vulnerabilities**.
 But I've also had experience with full stack web development with JavaScript.
