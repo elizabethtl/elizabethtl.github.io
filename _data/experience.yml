@@ -20,10 +20,16 @@
   city: "Raleigh, NC"
   start: "Jun 2024"
   end: "Aug 2024"
-  desc: "I worked as a summer research fellow at Chainguard labs, 
-    where I lead a project to better understand how various static 
-    analysis tools perform on different languages. I also assisted 
-    in a project comparing glibc and musl in the container context."
+  desc: "I was selected as a summer research fellow at Chainguard Labs, where 
+    I led an independent research project investigating how various static 
+    analysis tools perform reachability analysis across different programming 
+    languages (Go, Python, C). My research revealed significant discrepancies 
+    in how different tools assess vulnerability reachability, highlighting 
+    critical gaps in current software supply chain security tooling. 
+    I also contributed to a comparative analysis of glibc and musl in 
+    containerized environments. This fellowship provided valuable industry research 
+    experience and deepened my understanding of practical challenges in vulnerability 
+    assessment at scale."
 
 - company: "National Chengchi University"
   job: "Contract Student Software Developer"
