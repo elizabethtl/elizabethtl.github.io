@@ -4,20 +4,37 @@
   city: "Raleigh, NC"
   start: "Aug 2022"
   end: "current"
-  desc: "Focus: Software Supply Chain Security"
+  desc: "I conduct research in software supply chain security under
+   advisor William Enck, combining technical security analysis with 
+   qualitative research methods. I build data-driven applications 
+   using Python and JavaScript with MongoDB and asynchronous worker 
+   queues to process large datasets. My technical work involves 
+   static analysis with CodeQL, vulnerability assessments, and 
+   threat modeling across software ecosystems and IDE extensions. 
+   I also conduct qualitative studies, including interviews with 
+   industry professionals, to understand real-world security practices. 
+   My research has been published at NDSS and USENIX Security."
 
 - company: "Chainguard"
   job: "Research Fellow"
   city: "Raleigh, NC"
   start: "Jun 2024"
   end: "Aug 2024"
-  desc: "I worked as a summer research fellow at Chainguard labs, where I lead a project to better understand how various static analysis tools perform on different languages. I also assisted in a project comparing glibc and musl in the container context."
+  desc: "I worked as a summer research fellow at Chainguard labs, 
+    where I lead a project to better understand how various static 
+    analysis tools perform on different languages. I also assisted 
+    in a project comparing glibc and musl in the container context."
 
 - company: "National Chengchi University"
   job: "Contract Student Software Developer"
   start: "Sep 2021"
   end: "Jun 2022"
-  desc: "As an extension of my graduation project, I developed a website for our campus store to provide online services. It was built on AWS ec2, Apache, node.js, express, MySQL. The website was incorporated into the mobile app LINE with LINE messaging API, LINE notify, and LIFF. It allowed login and ordering of products through a LINE account."
+  desc: "As an extension of my graduation project, I developed a 
+    website for our campus store to provide online services. It was 
+    built on AWS ec2, Apache, node.js, express, MySQL. The website was 
+    incorporated into the mobile app LINE with LINE messaging API, 
+    LINE notify, and LIFF. It allowed login and ordering of products 
+    through a LINE account."
   city: "Taipei, Taiwan"
 
 
@@ -25,6 +42,8 @@
   job: "Part-time Teacher"
   start: "Feb 2021"
   end: "Dec 2021"
-  desc: "I planned and taught coding lessons for elementary kids. I also communicated frequently with faculty and teachers to discuss instructional strategies and provide feedback"
+  desc: "I planned and taught coding lessons for elementary kids. I also 
+    communicated frequently with faculty and teachers to discuss 
+    instructional strategies and provide feedback"
   city: "Taipei, Taiwan"
 
